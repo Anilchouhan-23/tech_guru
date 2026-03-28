@@ -96,10 +96,18 @@ export default function Footer() {
 
       {/* Bottom bar */}
       <div className="border-t border-gray-200 dark:border-gray-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <p className="text-center text-sm text-gray-500 dark:text-gray-400">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row justify-between items-center">
+          <p className="text-center sm:text-left text-sm text-gray-500 dark:text-gray-400">
             &copy; 2026 TechGuru. All rights reserved.
           </p>
+          <div className="flex justify-center gap-6 mt-4 sm:mt-0">
+            <Link href="/privacy-policy" className="text-sm text-gray-500 hover:text-primary-600 dark:text-gray-400 dark:hover:text-primary-400 transition-colors">
+              Privacy Policy
+            </Link>
+            <Link href="/terms-conditions" className="text-sm text-gray-500 hover:text-primary-600 dark:text-gray-400 dark:hover:text-primary-400 transition-colors">
+              Terms & Conditions
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
