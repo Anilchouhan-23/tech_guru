@@ -59,7 +59,7 @@ export default function PrivacyPolicy() {
         <ul className="list-none p-0">
           <li><strong>Database Owner:</strong> TechGuru</li>
           <li><strong>Address:</strong> 123 Tech Street, San Francisco, CA 94105</li>
-          <li><strong>Email:</strong> contact@techguru.today</li>
+          <li><strong>Email:</strong> support@techguru.today</li>
         </ul>
       </div>
     </div>

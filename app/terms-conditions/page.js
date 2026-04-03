@@ -87,7 +87,7 @@ export default function TermsConditions() {
           For legal notices or questions regarding these Terms:
         </p>
         <ul className="list-none p-0">
-          <li><strong>Email:</strong> contact@techguru.today</li>
+          <li><strong>Email:</strong> support@techguru.today</li>
           <li><strong>Address:</strong> 123 Tech Street, San Francisco, CA 94105</li>
         </ul>
       </div>
